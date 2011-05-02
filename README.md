@@ -20,3 +20,8 @@ For more information, consult the offical Ring site: http://mmcgrana.github.com/
        :body    "Hello World from Ring and Jetty 7"})
 
     (run-jetty app {:port 8080})
+
+## Download and Installation
+Add the following dependency and do a `lein deps`.
+
+    [org.signaut/ring-jetty7-adapter "0.3.8"]
