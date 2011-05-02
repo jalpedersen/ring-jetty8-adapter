@@ -22,6 +22,6 @@ For more information, consult the offical Ring site: http://mmcgrana.github.com/
     (run-jetty app {:port 8080})
 
 ## Download and Installation
-Add the following dependency and do a `lein deps`.
+Add the following dependency to your `project.clj` and do a `lein deps`.
 
     [org.signaut/ring-jetty7-adapter "0.3.8"]
