@@ -24,6 +24,7 @@
   (let [ssl-connector (SslSelectChannelConnector.)]
     (doto ssl-connector
       (.setPort        (options :ssl-port 8443))
+      (.setHost        (options :host))
       (.setKeystore    (options :keystore))
       (.setKeyPassword (options :key-password)))
     (when (options :truststore)

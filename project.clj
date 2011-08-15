@@ -1,4 +1,4 @@
-(defproject org.signaut/ring-jetty7-adapter "0.3.11"
+(defproject org.signaut/ring-jetty7-adapter "0.3.11.1"
   :description "Ring Jetty 7 adapter."
   :url "http://github.com/jalpedersen/ring-jetty7-adapter"
   :dependencies [[ring/ring-servlet "0.3.11"]
