@@ -24,4 +24,4 @@ For more information, consult the offical Ring site: http://mmcgrana.github.com/
 ## Download and Installation
 Add the following dependency to your `project.clj` and do a `lein deps`.
 
-    [org.signaut/ring-jetty7-adapter "1.0.0"]
+    [org.signaut/ring-jetty7-adapter "1.0.2"]
