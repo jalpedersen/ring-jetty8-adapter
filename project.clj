@@ -1,7 +1,9 @@
-(defproject org.signaut/ring-jetty7-adapter "1.0.2.2"
-  :description "Ring Jetty 7 adapter."
-  :url "http://github.com/jalpedersen/ring-jetty7-adapter"
-  :dependencies [[ring/ring-servlet "1.0.2"]
-                 [org.eclipse.jetty/jetty-server "7.6.2.v20120308"]]
-  :dev-dependencies [[clj-http "0.1.3"]
-                     [lein-clojars "0.7.0"]])
+(defproject org.signaut/ring-jetty8-adapter "1.1.1"
+  :description "Ring Jetty adapter."
+  :url "https://github.com/ring-clojure/ring"
+  :dependencies [[ring/ring-core "1.1.1"]
+                 [ring/ring-servlet "1.1.1"]
+                 [org.eclipse.jetty/jetty-server "8.1.4.v20120524"]]
+  :dev-dependencies [[clj-http "0.3.2"]
+                     [lein-clojars "0.9.0"]]
+)

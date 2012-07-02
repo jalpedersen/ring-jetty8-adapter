@@ -1,6 +1,6 @@
 (ns ring.adapter.jetty-test
   (:use clojure.test
-        ring.adapter.jetty7)
+        ring.adapter.jetty8)
   (:require [clj-http.client :as http]))
 
 (defn- hello-world [request]
