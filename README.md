@@ -24,4 +24,4 @@ For more information, consult the offical Ring site: https://github.com/ring-clo
 ## Download and Installation
 Add the following dependency to your `project.clj` and do a `lein deps`.
 
-    [org.signaut/ring-jetty8-adapter "1.1.1"]
+    [org.signaut/ring-jetty8-adapter "1.1.6"]
