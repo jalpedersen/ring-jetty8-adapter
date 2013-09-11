@@ -1,5 +1,7 @@
 # Jetty 8 adapter for Ring
 
+# This is no longer maintained. Please use https://github.com/jalpedersen/ring-jetty9-adapter instead.
+
 ## Synoptis
 
 Adapter for Ring using Jetty 8.
